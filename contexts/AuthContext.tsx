@@ -51,7 +51,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
         case 'signOut':
           signOut();
           break;
-
         default:
           break;
       }
